@@ -81,7 +81,7 @@ QuickNode Faucet — https://faucet.quicknode.com/arbitrum
 KEYSTORE_PASSWORD=ENTER_YOUR_KEYSTORE_PASSWORD && docker run -d --name privanetix-node -v "$HOME/privasea/config:/app/config" -e KEYSTORE_PASSWORD=$KEYSTORE_PASSWORD privasea/acceleration-node-beta:latest
 ```
 
-Note: Replace your ENTER_YOUR_KEYSTORE_PASSWORD with your Keystore Password, you provided in the above steps
+Note: Replace your ENTER_YOUR_KEYSTORE_PASSWORD with your Keystore Password, you already provided in 3rd steps
 
 7️⃣ Check your dashboard to Showing Online
 
@@ -90,3 +90,17 @@ Note: Replace your ENTER_YOUR_KEYSTORE_PASSWORD with your Keystore Password, you
 1. Just Click on the “Privasea DeepSea Beta Faucet” to get TPRAI faucet
 2. Then Click on ‘My Staking’ > After that, your node details will be displayed > Just click on ‘Details
 3. Then Click on the ‘Stake’ button > Put the amount & Staked it
+
+## 🔶For Next Day Run This Command
+
+#1 Open docker 1st 
+
+#2 Now Open WSL and Put this Command 
+```
+mkdir -p  /privasea/config && cd  /privasea
+```
+```
+KEYSTORE_PASSWORD=ENTER_YOUR_KEYSTORE_PASSWORD && docker run -d --name privanetix-node -v "$HOME/privasea/config:/app/config" -e KEYSTORE_PASSWORD=$KEYSTORE_PASSWORD privasea/acceleration-node-beta:latest
+```
+
+Note: Replace your ENTER_YOUR_KEYSTORE_PASSWORD with your Keystore Password, you already provided in 3rd steps
