@@ -97,7 +97,7 @@ Note: Replace your ENTER_YOUR_KEYSTORE_PASSWORD with your Keystore Password, you
 
 #2 Now Open WSL and Put this Command 
 ```
-mkdir -p  /privasea/config && cd  /privasea
+sudo mkdir -p  /privasea/config && cd  /privasea
 ```
 ```
 KEYSTORE_PASSWORD=ENTER_YOUR_KEYSTORE_PASSWORD && docker run -d --name privanetix-node -v "$HOME/privasea/config:/app/config" -e KEYSTORE_PASSWORD=$KEYSTORE_PASSWORD privasea/acceleration-node-beta:latest
