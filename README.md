@@ -68,7 +68,7 @@ mv $HOME/privasea/config/UTC--* $HOME/privasea/config/wallet_keystore
 
 5️⃣ Link node address and reward address
 
-Alchemy Faucet — https://www.alchemy.com/faucets/arbitrum-goerli
+Alchemy Faucet — https://www.alchemy.com/faucets/arbitrum-sepolia
 
 QuickNode Faucet — https://faucet.quicknode.com/arbitrum
 
